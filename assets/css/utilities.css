@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root {
+    --gray:#747474;
+    --orenge:#fcb900;
+    --white:#ffff;
+    --gray-800: #333;
+    --black:#0000;
+    --orenge-900: #f2b555;
+    --gray-900: #999;
+    --border-color: #ddd;
+    --montserrat-: 'Montserrat';
+    --lato:'Lato';
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.toggle i{
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.position-reletive {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.fixed {
+    position: fixed;
+}
+
+nav {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+.border {
+    width: 100%;
+}
+
+.slider {
+    width: 100%;
+}
+.w-80{
+    width: 80%;
+}
+.w-33 {
+    width: 33.33%;
+  
+}
+.w-10{
+    width: 10%;
+}
+.w-20 {
+    width: 20%;
+}
+.w-16{
+    width:16.66%;
+}
+.w-65 {
+    width: 65%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-30 {
+    width: 30%;
+   
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+    padding: 0px 15px;
+}
+.w-60{
+    width: 60%;
+}
